@@ -1,0 +1,17 @@
+import os, time, sys
+from time import sleep
+from os import system
+
+count = 0
+  
+def ca():
+  global count
+  os.system("clear")
+  os.system("du -had1 ; rm -rf ./.cache")
+  sys.stdout.write('\r [ Cache Clear Count ] •%s '%(count)),
+  sys.stdout.flush()
+  count+=1
+  tme.sleep(60)
+  ca()
+
+ca()
