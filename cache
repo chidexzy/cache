@@ -8,7 +8,8 @@ def ca():
   global count
   os.system("clear")
   os.system("du -had1 ; rm -rf ./.cache")
-  sys.stdout.write('\r [ Cache Clear Count ] •%s '(count)),
+  fff = '%'
+  sys.stdout.write('\r [ Cache Clear Count ] •%s '%(count)),
   sys.stdout.flush()
   count+=1
   time.sleep(60)
