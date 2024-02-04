@@ -9,7 +9,7 @@ def ca():
   os.system("clear")
   os.system("du -had1 ; rm -rf ./.cache")
   fff = '%'
-  sys.stdout.write('\r [ Cache Clear Count ] •%s '%(count)),
+  sys.stdout.write('\r [ Cache Clear Count ] • %s '%(count)),
   sys.stdout.flush()
   count+=1
   time.sleep(60)
